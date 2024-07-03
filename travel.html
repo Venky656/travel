@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <link rel="shortcut icon" href="./images/home/main logo.jpeg" type="image/x-icon">
+     <link rel="stylesheet" href="./travel.css">
+</head>
+<body>
+    <!--home -->
+   
+    <header id="home">
+        <nav>
+            <div class="logo">Travel<span>BD</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#destination">DESTINATION</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#tour">TOUR</a></li>
+                <li><a href="#contact">CONTACTS</a></li>
+            </ul>
+            <div class="signin"><a href="#">SIGN IN</a></div>
+        </nav>
+    
+    <!-- home contecnt -->
+
+    <section class="home" >
+    <div class="row">
+    <div class="home-content">
+         <p class="home-content-main-text">Lifelong memories just a 
+            few seconds away</p> 
+            <p class="home-para">Let’s start your journey with us, your dream will come true</p>
+            <button>EXPLORE NOW</button>
+    </div>
+    <!-- social media -->
+     <div class="social-media">
+        <p>follow us</p>
+        <img src="./images/home/instagram icon.svg" alt="instagram">
+        <img src="./images/home/facebook.svg" alt="facebook">
+        <img src="./images/home/twitter.svg" alt="instagram">
+     </div>
+    </div>
+ 
+    <!-- places -->
+    <div  class="places">
+         <p>the most famous tour spots in BD  </p>
+          <div>
+            <img src="./images/home/pic1-6674d11ca9986.webp" alt="pic1-h">
+          </div>
+          <div>
+            <img src="./images/home/Mask Group.png" alt="pic2-h">
+          </div>  
+         <div>
+            <img src="./images/home/Mask Group (2).png" alt="pic3-h">
+          </div>
+     
+</div>
+
+</section>
+</header>
+
+    <!--Anout us -->
+
+    <section class="About-Us" id="About">
+        <div class="AboutUs-content-1">
+            <h2>About Us</h2>
+            <p>the best travel agency for you</p>
+            <p>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ratione blanditiis cumque labore voluptatum rem quae vero maiores eos. Dignissimos culpa harum perspiciatis beatae deserunt laboriosam quam animi doloribus sint?ipsum dolor sit amet, consectetur
+                adipiscing elit. In elementum sit libero, placerat
+                nibh facilisis in rutrum. Risus, gravida purus nunc
+                suspendisse. Sit elementum mi, netus in sit. Massa
+                posuere ac auctor quis elementum.</p>
+                <p>read more about us  <a href="#">&rarr;</a></p>
+        </div>
+
+        <div class="AboutUs-content-2">
+            <img src="./images/pic1-6674d11ca9986.webp" alt="">
+        </div>
+    </section>
+
+<div class="frame" >
+    <!--our services-->
+    <section  class="our-services" id="services">
+        <h1>Our Services</h1>
+        <p>We help our clients through out the trip</p>
+
+        <div class="service-img-div"> 
+            <!--detination  service -->
+            <div >
+                <div class="service-img">
+                     <img src="./images/home/about us -destination.svg" alt="destination" id="img">
+                </div>
+                <div class="service-content">
+                    <h2>DESTINATIONS</h2>
+                    <p>Choose  any destination
+                        you like, we have several
+                        country ratings </p>
+                </div>  
+            </div>
+
+            <!-- tours service -->
+            <div>
+                <div class="outer-circle">
+                    <div class="service-img">
+                        <img src="./images/home/about us -tours.svg" alt="tours">
+                   </div>
+                </div>
+               
+               <div class="service-content q">
+                   <h2>TOURS</h2>
+                   <p>A large number of tours
+                      to different countries for
+                        one or a family</p>
+               </div>
+            </div>
+
+            <!-- hotal service -->
+            <div>
+                <div class="service-img">
+                    <img src="./images/home/about us -hotel.svg" alt="">
+               </div>
+               <div class="service-content">
+                   <h2>LUXURY HOTEL</h2>
+                   <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.</p>
+               </div>
+            </div>
+
+            <!--assistance service-->
+            <div class="service-content">
+                <div class="service-img">
+                    <img src="./images/home/about us - assistence.png" alt="">
+               </div>
+               <div class="service-content">
+                   <h2>ASSISTANCE</h2>
+                   <p>We are ready to solve all
+                    your questions and help
+                    to deal with problems</p>
+               </div>
+            </div>
+
+
+        </div>
+       
+    </section>
+</div>
+
+    <!--where to go-->
+    <section class="where-to-go">
+        <div>
+            
+            <label for="destination">Where do you want to go?</label>
+            <input type="text" id="destination" list="destinations" placeholder="where to go?" class="input-where-to-go">
+            <datalist id="destinations">
+                <option value="Paris">
+                <option value="New York">
+                <option value="Tokyo">
+                <option value="London">
+            </datalist>
+
+        </div>
+
+        <div>
+            <label for="travelDate">Date:</label>
+            <input type="date" id="travelDate" name="travelDate"  class="input-where-to-go">
+
+            <label for="travelType">Travel type:</label >
+            <input type="text" id="travelType" list="travelTypes" placeholder="travel Type"  class="input-where-to-go">
+            <datalist id="travelTypes">
+
+              <option value="Adventure">
+              <option value="Cultural tourism">
+              <option value="Business travel">
+              <option value="Leisure Travel">
+              <option value="Ecotourism">
+              <option value="Solo travel">
+              <option value="Business tourism">
+              <option value="Luxury">
+              <option value="Cruise ship">
+           </datalist>
+       </div>
+
+       <div>
+      
+       
+        <button type="submit">Search</button>
+       </div>
+
+    </section>
+
+    <!--Our Destination -->
+      <section class="destination-s frame" id="destination">
+        <h1>Our Dstination</h1>
+        <p>choose your next destination</p>
+
+        <!-- destination items -->
+         <div class="grid">
+            <div class="destination"><img src="./images/home/destination  pic 1.png" alt="1"></div>
+            <div class="destination"><img src="./images/home/destination  pic 2.png" alt="2"></div>
+            <div class="destination"><img src="./images/home/destination  pic 3.png" alt="3"></div>
+            <div class="destination"><img src="./images/home/destination  pic 4.png" alt="7"></div>
+            <div class="destination"><img src="./images/home/destination  pic 5.png" alt="5"></div>
+            <div class="destination"><img src="./images/home/destination  pic 6.png" alt="8"></div>
+
+         </div>
+            <div class="pages">
+            <span>Total 10 pages</span>
+            <a href="#">&laquo;</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">&raquo;</a>
+        
+        </div>
+       </section>
+         
+     
+    <!--subscribe -->
+    <section class="subscribe-section">
+        <div class="subscribe-content">
+            <h3>subscribe our newsletter</h3>
+            <p>subscribe our newsletter to get offers and about<br> 
+                new places to discover.</p>
+            </div>
+        
+        <div class="subscribe-form">
+            <input type="email" placeholder="Your Mail" />
+            <button>Subscribe</button>
+        </div>
+
+
+
+    </section>
+
+
+    <!--reviews -->
+    <section class="reviews">
+        <h1>reviews</h1>
+        <p>we always ask our clients to leave hones reviews<br>
+            on the basis of which you can make a choice</p>
+        <div class="review-container">
+            <div class="user-info">
+                <img src="./images/home/review-profile-pic-6674d11f6c1cb.webp" alt="User Photo" class="user-photo">
+                <div>
+                    <h3>Rakib rahman</h3>
+                    <p>25 y.o</p>
+                    <p>Tour: cox's bazar</p>
+                    <div class="tour-images">
+                        <img src="./images/home/review-1-6674d11db59b9.webp" alt="Tour Image 1">
+                        <img src="./images/home/review-2-6674d11e9ebdb.webp" alt="Tour Image 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="ratings">
+                <div class="rating-item">
+                    <span>assistance</span>
+                    <div class="rating-bar">
+                        <div class="rating-fill" style="width: 100%;"></div>
+                    </div>
+                    <span>100%</span>
+                </div>
+                <div class="rating-item">
+                    <span>tour quality</span>
+                    <div class="rating-bar">
+                        <div class="rating-fill" style="width: 90%;"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+
+                <div class="rating-item">
+                    <span>hotel</span>
+                    <div class="rating-bar">
+                        <div class="rating-fill" style="width: 85%;"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+            </div>
+
+            <div class="overall-rating">
+                <span>overall rating:</span>
+                <div class="rating-circle">5</div>
+            </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu phasellus faucibus neque fusce nunc in. Posuere lectus adipiscing netus massa enim, arcu ut. Arcu arcu nunc suspendisse fermentum. Nunc dictumst pharetra sed.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu phasellus faucibus neque fusce nunc in. 
+                    </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--recent trips -->
+<section class="recent-trips frame" id="tour">
+    <h1>Our Resent Trips</h1>
+     <div class="recent-trips-content">
+        <div class="trips">
+            <img src="./images/home/destination  pic 1.png" alt="">
+            <p>october 19, 2021</p>
+            <p>Lorem ipsum dolor sit amet, consectet
+                adipiscing elit.</p>
+        </div>
+
+        <div class="trips">
+            <img src="./images/home/destination  pic 2.png" alt="">
+            <p>october 19, 2021</p>
+            <p>Lorem ipsum dolor sit amet, consectet
+                adipiscing elit.</p>
+        </div>
+
+        <div class="trips">
+            <img src="./images/home/destination  pic 3.png" alt="">
+            <p>october 19, 2021</p>
+            <p>Lorem ipsum dolor sit amet, consectet
+                adipiscing elit.</p>
+        </div>
+     </div>
+</section>
+
+
+    <!--contact -->
+ 
+ <section class="footer" id="contact">
+    <div class="footer-s1">
+        <div class="logo">Travel<span>BD</span></div>
+        <h4>About Travelers</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla faucibus consectetur in. Curabitur eu, nunc suspe ndisse duis malesuada. Netus viverra amet montes, rutrum vel pretium. Purus orci nunc morbi dolor. Quis aenean aliquam.</p>
+        <div class="footer-media">
+            <!-- fb icon -->
+            <img src="./images/home/facebook.png" alt="Facebook">
+            <img src="./images/home/twitter.svg" alt="Twitter">
+            <img src="./images/home/instagram icon.svg" alt="Instagram">
+        </div>
+    </div>
+
+    <div class="footer-s2">
+        <h4>Navigations</h4> 
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#About">About</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-s3">
+        <ul>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Contact Us</li>
+            <li>Discounts</li>
+        </ul>
+    </div>
+
+    <div class="footer-s4">
+        <h3>Subscribe to our Newsletter</h3>
+        <p>Subscribe to our newsletter to get offers and learn about new places to discover.</p>
+        <form>
+            <input type="email" placeholder="Your Email">
+            <button type="submit">Subscribe</button>
+        </form>
+       
+    </div>
+    <div class="footer-bottom">
+        <p>Tour Landing page by Ashraful &copy; All Rights Reserved. 2021</p>
+    </div>
+   
+</section>
+
+
+</body>
+</html>
